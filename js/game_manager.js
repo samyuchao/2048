@@ -178,7 +178,7 @@ GameManager.prototype.move = function (direction) {
       }
     });
   });
-
+moved=true;
   if (moved) {
     this.addRandomTile();
 
